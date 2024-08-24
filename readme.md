@@ -58,6 +58,12 @@ To start the bot, use the command /start.
 Support for various image styles.
 Utilizes asynchronous programming for efficient performance.
 
+## TO DO
+
+Handle more exceptions.
+Add image size
+Add image colors
+
 ## Contributing
 
 We welcome contributions to this project! Whether you're fixing a bug, adding a new feature, or improving documentation, your help is appreciated.
