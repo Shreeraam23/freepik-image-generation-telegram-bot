@@ -1,0 +1,17 @@
+# Python-Telegram-Bot
+/venv/
+/.env
+
+# VSCode
+.vscode/
+*.code-workspace
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.egg-info/
+
+#sqlite3
+*.db
+*.db-shm
+*.db-wal
