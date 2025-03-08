@@ -3,7 +3,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Get the value of the environment variable
-TOKEN = os.getenv('TOKEN')
+TOKEN = os.getenv('8003519639:AAEIKomusES9KX1NhAJpXCvqL7rL6eFwtNg')
 STYLES = [{"style": "Photo", "callback_data": "photo"},
         {"style": "Cartoon", "callback_data": "cartoon"},
                 {"style": "3d", "callback_data": "3d"},
@@ -30,4 +30,4 @@ STYLES = [{"style": "Photo", "callback_data": "photo"},
 
 STYLES_REGEX = "^" + "|".join([style["callback_data"] for style in STYLES]) + "$"
 
-FREEPIK_API_KEY = os.getenv('FREEPIK_API_KEY')
+FREEPIK_API_KEY = os.getenv('FPSX54b7edc79ba04dc3872dc8f9a91f34d0')
